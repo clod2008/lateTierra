@@ -21,6 +21,7 @@ const data = {
 export const homeCarousel = () =>{
     const carousel = document.createElement('section');
     // carousel.classList.add('home-slider', 'owl-carousel')
+    carousel.style.marginTop='100px'
     carousel.innerHTML=`
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 

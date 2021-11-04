@@ -15,3 +15,9 @@ homeCarousel();
 cardDeckHome01();
 footer();
 
+const navHi = document.getElementById('navBarHome01')
+console.log(navHi)
+const marginTo = navHi.clientHeight
+console.log(marginTo)
+
+

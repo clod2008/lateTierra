@@ -6,9 +6,9 @@ const {home, about, service, contact} = navBarLinks
 
 export const navBar = (siteBrand) =>{
     const navBarContainer = document.createElement('nav');
-    navBarContainer.classList.add('navbar','navbar-expand-lg','navbar-dark','ftco_navbar', 'bg-dark', 'ftco-navbar-light')
+    navBarContainer.classList.add('navbar','navbar-expand-lg','navbar-dark','bg-dark', 'fixed-top')
     navBarContainer.innerHTML = `
-        <div class="container">
+        <div id="navBarHome01" class="container">
         <a class="navbar-brand" href="${home.url}"><img src="${siteBrand}" alt=""><span class="brand01">Late </span><span class="brand02">Tierra</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu

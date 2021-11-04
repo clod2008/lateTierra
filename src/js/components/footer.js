@@ -5,12 +5,13 @@ import { navBarLinks } from '../navBarLinks';
 const {home, about, service, contact} = navBarLinks
 
 export const footer = () =>{
+    const myDate = new Date().getFullYear()
     const foot = document.createElement('footer');
     foot.classList.add('ftco-footer', 'ftco-bg-dark', 'ftco-section' )
     foot.innerHTML=`
       <div class="container">
         <div class="row mb-5">
-          <div class="col-md-3">
+          <div class="col-md-5">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">DentaCare.</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -21,7 +22,7 @@ export const footer = () =>{
               <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
@@ -49,7 +50,7 @@ export const footer = () =>{
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          Copyright &copy; ${myDate} All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                   </div>
               </div>
