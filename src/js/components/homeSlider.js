@@ -45,6 +45,9 @@ export const homeCarousel = () =>{
         >
         <div class="container">
           <div class="carousel-caption d-none d-md-block">
+          <div class="mb-5">
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Producto Secundario</a>
+          </div>
             <h5>${data.slide02.title}</h5>
             <p>S${data.slide02.paragraph}</p>
           </div>
