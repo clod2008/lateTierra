@@ -1,0 +1,14 @@
+.navbar-brand img {
+    height: 50px;
+    margin: 1em;
+}
+.brand01 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.brand02 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}

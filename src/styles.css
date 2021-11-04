@@ -1,0 +1,45 @@
+:root{
+    --primary: #63853A !important;
+    --secondary: #ABD037 !important;
+    --success: #28a745 !important;
+    --info: #17a2b8 !important;
+    --warning: #ffc107 !important;
+    --danger: #dc3545 !important;
+    --light: #f8f9fa !important;
+    --dark: #343a40 !important;
+}
+
+html, body {
+    margin: 0;
+    background-color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.btn-primary,
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active, 
+.show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    
+    
+}
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active:hover, 
+.btn-primary:not(:disabled):not(.disabled).active:hover, 
+.show > .btn-primary.dropdown-toggle:hover {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+
+

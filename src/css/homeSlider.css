@@ -1,0 +1,36 @@
+.carousel-inner, .carousel-item {
+    height: 40vh;
+}
+
+section {
+    z-index: 1;
+}
+
+.carousel-caption {
+    margin: auto;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 765px){
+    .carousel-caption{
+        display: block !important;
+    }
+
+}
+
+.carousel-inner{
+
+}
+
+.carousel-item {
+    text-align: center !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item .btn {
+    border-radius: 30px !important;
+}

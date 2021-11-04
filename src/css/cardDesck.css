@@ -1,0 +1,21 @@
+.card img {
+    margin: 1em;
+    border-radius: 50%;
+}
+.card {
+    margin-top: -7% !important;
+    transition: all 0.5s ease-out;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+    box-shadow:         0px 0px 8px 0px rgba(0,0,0,0.1);
+    margin-bottom: 3em !important;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.2);
+    box-shadow:         0px 0px 8px 5px rgba(0,0,0,0.2);
+}
+
+.card-deck {
+    margin-top: 2em !important;
+    padding-bottom: 2em;
+}
