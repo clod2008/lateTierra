@@ -8,8 +8,10 @@ import siteBrand from './assets/img/2x/brandIso.png';
 import { navBar } from './js/components/navBar';
 import { homeCarousel } from './js/components/homeSlider';
 import { cardDeckHome01 } from './js/components/cardDeck';
+import { footer } from './js/components/footer';
 
 navBar(siteBrand);
 homeCarousel();
 cardDeckHome01();
+footer();
 

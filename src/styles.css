@@ -7,6 +7,8 @@
     --danger: #dc3545 !important;
     --light: #f8f9fa !important;
     --dark: #343a40 !important;
+    --greyD: #999999 !important;
+    --greyL: #D2D2D2 !important;
 }
 
 html, body {

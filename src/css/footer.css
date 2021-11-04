@@ -1,0 +1,16 @@
+footer h1,footer h2,footer h3,footer p,footer a,footer span, footer li{
+  font-size: small;
+  color: black;
+}
+
+footer h1, footer h2, footer h3 {
+  color: var(--primary) !important;
+  font-weight: 800;
+
+}
+
+footer {
+  background-color: thistle;
+  padding: 2em;
+  background-color: var(--greyL);
+}
