@@ -30,6 +30,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.12.8",
     "bootstrap": "^4.6.1",
     "holderjs": "^2.9.9",
     "jquery": "^3.6.0",
