@@ -35,3 +35,19 @@
     margin-top: 2em !important;
     padding-bottom: 2em;
 }
+
+@media (max-width: 575px){
+    .card {
+        margin-top: -60px !important;
+        width: 80% !important;
+        display: flex !important;
+        align-self: center;
+    }
+
+    .card-deck {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+}
