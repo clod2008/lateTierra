@@ -38,16 +38,22 @@
 
 @media (max-width: 575px){
     .card {
-        margin-top: -60px !important;
+        /* margin-top: -60px !important; */
         width: 80% !important;
         display: flex !important;
         align-self: center;
     }
-
+    
     .card-deck {
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
+    }
 
+    .card:first-child {
+        margin-top: -5em !important;
+    }
+    .card:last-child{
+        margin-bottom: 0px !important;
     }
 }
