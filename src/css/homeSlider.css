@@ -15,11 +15,41 @@ section {
 @media (max-width: 765px){
     .carousel-caption{
         display: block !important;
+        
     }
 
 }
 
-.carousel-inner{
+@media (max-width: 361px){
+    .carousel-caption{
+
+        top: 20px;
+        margin-top: 20px !important;
+        /* background-color: aqua; */
+        display: flex !important;
+        flex-direction: column;
+        justify-content: flex-end !important;
+        /* display: block !important; */
+        /* align-content: flex-start !important;
+        justify-content: flex-end !important; */
+        
+        
+    }
+    .carousel-caption .btn {
+        top: 30px;
+        position: relative;
+
+    }
+    .carousel-inner .container{
+        display: flex;
+        align-content: flex-end !important;
+        justify-content: center !important;
+        align-content: center !important;
+        margin-top: 20px !important;  
+        /* padding-top: 20em !important; */
+        /* background-color: blueviolet; */
+    }
+
 
 }
 
