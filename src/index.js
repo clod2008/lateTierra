@@ -2,12 +2,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/jquery/dist/jquery.min';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 
-
-
-
-
-
-
 import './styles.css';
 
 import siteBrand from './assets/img/2x/brandIso.png';
@@ -17,6 +11,7 @@ import { cardDeckHome01 } from './js/components/cardDeck';
 import { footer } from './js/components/footer';
 
 import { gMap } from './js/components/map';
+import { brandData } from './js/brandData';
 
 
 navBar(siteBrand);
@@ -26,13 +21,14 @@ gMap();
 
 // google.maps.event.addDomListener(window, 'load', init);
 
-
-footer();
+footer(siteBrand);
 
 const navHi = document.getElementById('navBarHome01')
 console.log(navHi)
 const marginTo = navHi.clientHeight
 console.log(marginTo)
+
+brandData
 
 
 

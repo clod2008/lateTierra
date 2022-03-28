@@ -34,6 +34,7 @@
     "bootstrap": "^4.6.1",
     "holderjs": "^2.9.9",
     "jquery": "^3.6.0",
-    "node-sass": "^6.0.1"
+    "node-sass": "^6.0.1",
+    "svg-url-loader": "^7.1.1"
   }
 }

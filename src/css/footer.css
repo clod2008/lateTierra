@@ -1,3 +1,13 @@
+/* @font-face {
+    font-family: 'Ailerons';
+    src:  url('../assets/Ailerons-Regular.woff2') format('woff2'),
+          url('../assets/Ailerons-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
 footer h1,footer h2,footer h3,footer p,footer a,footer span, footer li{
   font-size: small;
   color: black;
@@ -13,4 +23,73 @@ footer {
   background-color: thistle;
   padding: 2em;
   background-color: var(--greyL);
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: cadetblue;
+  /* background: url("../assets/img/SVG/GMS-logo.svg"); */
+}
+
+.icon object{
+  
+  height: 50px;
+  width: 50px;
+  color: azure;
+  z-index: 15;
+  
+  /* background: url("../assets/img/SVG/GMS-logo.svg"); */
+}
+.logoApsisFooter{
+  /* background: url(../assets/img/SVG/Logo\ APSIS\ Gris.svg); */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1em;
+  margin: auto;
+  transition: all 0.5s ease-out;
+
+}
+
+.logoApsisFooter:hover{
+  filter: brightness(0.4);
+
+}
+
+#footerBrand{
+  height: 2em;
+}
+
+.ftco-footer-social{
+  display: flex;
+  justify-content:space-around;
+  list-style-type:none;
+}
+.ftco-footer-social li{
+  margin-left: 1em;
+}
+
+.ftco-footer-social li a{
+  text-decoration: none;
+}
+
+.ftco-footer-social .icon{
+  background-color: var(--primary) !important;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  height: 4em;
+  width: 4em;
+  transition: all 0.5s ease-out;
+
+}
+.ftco-footer-social .icon:hover{
+  transform: scale(1.2);
+}
+
+.ftco-footer-social i{
+  font-size: 2em;
+
 }

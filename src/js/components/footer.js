@@ -4,7 +4,7 @@ import { navBarLinks } from '../navBarLinks';
 
 const {home, about, service, contact} = navBarLinks
 
-export const footer = () =>{
+export const footer = (brand) =>{
     const myDate = new Date().getFullYear()
     const foot = document.createElement('footer');
     foot.classList.add('ftco-footer', 'ftco-bg-dark', 'ftco-section' )
@@ -13,13 +13,12 @@ export const footer = () =>{
         <div class="row mb-5">
           <div class="col-md-5">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">DentaCare.</h2>
+              <h2 class="ftco-heading-2"><img id="footerBrand" src="${brand}" alt=""><span class="brand01"> Late </span><span class="brand02">Tierra</span></h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="#"><div class="icon"><i class="fab fa-instagram"></i></div></a></li>
+              <li class="ftco-animate"><a href="#"><div class="icon"><i class="fab fa-linkedin"></i></div></a></li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -48,20 +47,14 @@ export const footer = () =>{
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          Copyright &copy; ${myDate} All rights reserved | Powered by <a href="https://apsis.com.ar" target="_blank">APSIS</a>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                  </div>
-              </div>
-              </div>
+            <p>
+            Copyright &copy; ${myDate} All rights reserved | Powered by <a href="https://apsis.com.ar" target="_blank"><img class="logoApsisFooter" src="../../assets/img/SVG/Logo APSIS Gris.svg" alt=""></a>
+            </p>
+          </div>
+        </div>
   
     
     `;
     document.body.append( foot )
 }
 
-/*
-  <section>
-  </section>
-*/
